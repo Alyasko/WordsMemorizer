@@ -12,13 +12,15 @@ namespace WordsMemorizer
         {
             IndefiniteForm = "";
             SecondForm = "";
+            ThirdForm = "";
             Translation = "";
         }
 
-        public ForeignWord(String indefiniteForm, String secondForm, String translation)
+        public ForeignWord(String indefiniteForm, String secondForm, String thirdForm, String translation)
         {
             IndefiniteForm = indefiniteForm;
             SecondForm = secondForm;
+            ThirdForm = thirdForm;
             Translation = translation;
         }
 
@@ -27,6 +29,7 @@ namespace WordsMemorizer
             return IndefiniteForm;
         }
 
+        public String ThirdForm { get; set; }
         public String IndefiniteForm { get; set; }
         public String SecondForm { get; set; }
         public String Translation { get; set; }

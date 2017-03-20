@@ -28,10 +28,15 @@ namespace WordsMemorizer
 
             foreach (string line in lines)
             {
-                String[] words = line.Split(new String[] {"\t"}, StringSplitOptions.RemoveEmptyEntries);
-                ForeignWord foreignWord = new ForeignWord(words[0], words[3], words[1]);
-                Words.Add(foreignWord);
+                String[] words = line.Split(new String[] { "\t" }, StringSplitOptions.RemoveEmptyEntries);
+
+                if (words.Length == 4)
+                {
+                    ForeignWord foreignWord = new ForeignWord(words[0], words[2], words[3], words[1]);
+                    Words.Add(foreignWord);
+                }
             }
+
         }
 
         public IList<ForeignWord> GetRandomWords(int count)
