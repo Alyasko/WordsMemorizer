@@ -28,8 +28,8 @@ namespace WordsMemorizer
 
             foreach (string line in lines)
             {
-                String[] words = line.Split(new String[] {" "}, StringSplitOptions.RemoveEmptyEntries);
-                ForeignWord foreignWord = new ForeignWord(words[0], words[1], words[2]);
+                String[] words = line.Split(new String[] {"\t"}, StringSplitOptions.RemoveEmptyEntries);
+                ForeignWord foreignWord = new ForeignWord(words[0], words[3], words[1]);
                 Words.Add(foreignWord);
             }
         }

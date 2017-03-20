@@ -76,7 +76,9 @@
             // 
             this.lbChoices.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbChoices.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbChoices.FormattingEnabled = true;
+            this.lbChoices.ItemHeight = 20;
             this.lbChoices.Location = new System.Drawing.Point(326, 52);
             this.lbChoices.Name = "lbChoices";
             this.lbChoices.Size = new System.Drawing.Size(371, 264);
@@ -87,13 +89,15 @@
             // 
             this.tbSourceWord.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbSourceWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbSourceWord.Location = new System.Drawing.Point(15, 52);
             this.tbSourceWord.Name = "tbSourceWord";
-            this.tbSourceWord.Size = new System.Drawing.Size(305, 20);
+            this.tbSourceWord.Size = new System.Drawing.Size(305, 26);
             this.tbSourceWord.TabIndex = 3;
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(323, 36);
             this.label2.Name = "label2";
