@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WordsMemorizer.cs">
+    <Compile Include="WordsMemorizerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WordsMemorizer.Designer.cs">
-      <DependentUpon>WordsMemorizer.cs</DependentUpon>
+    <Compile Include="WordsMemorizerForm.Designer.cs">
+      <DependentUpon>WordsMemorizerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="WordsMemorizer.resx">
-      <DependentUpon>WordsMemorizer.cs</DependentUpon>
+    <EmbeddedResource Include="WordsMemorizerForm.resx">
+      <DependentUpon>WordsMemorizerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
